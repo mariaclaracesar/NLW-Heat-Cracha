@@ -6,6 +6,7 @@ html,
 body {
   --black: hsl(240, 6%, 13%);
   --grey: hsl(240, 9%, 89%);
+  --full-black: black;
 
   height: 100%;
   font-family: 'Roboto', sans-serif;
@@ -87,4 +88,34 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+
+@media (min-width: 960px) {
+  body {
+    background: var(--full-black);
+  }
+
+  main {
+    background: url(images/Desktop-background.svg) no-repeat center/cover;
+    width: 100vw;
+    min-height: 812px;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 720px) {
+  body {
+    background: var(--full-black);
+  }
+
+  main {
+    background: url(images/Desktop.png) no-repeat center/cover;
+    width: 100vw;
+    min-height: 812px;
+    height: 100vh;
+  }
+
+  .avatar {
+    margin-top: 80%;
+  }
 }
