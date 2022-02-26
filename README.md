@@ -19,7 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-projeto Badge Do While2021. Direcionamento para redes sociais.
+Projeto Badge Do While2021. Direcionamento para redes sociais.
 
 ## 🔖 Layout
 
